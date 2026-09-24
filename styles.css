@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color:#ffffff;
+    color: #455a64 ;
+
+}
+header{
+    background-color:#ffffff;
+    padding: 20px 0;
+}
+
+.cont_encabezado{
+    background-color:#ffffff;
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 30px; */
+    margin: 0 auto;
+    /* gap: 20px; */
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo_img{
+    width: 100%;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    padding: 15px ;
+    gap: 15px;
+}
+.link_menu{
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.boton_registrar{
+    background-color:#e8505b ;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+/* main */
+/* seccion 1 */
+.sec_repartidor{
+    background-color:#ffffff;
+    padding: 15px;
+}
+.cont_seccion1{
+    background-color:#ffffff;
+    max-width: 800px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0 20px;
+}
+.sec1_formulario{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    background-color:#e8505b;
+    color: #ffffff;
+    padding: 7% 3%;
+    gap: 20px;
+}
+.sec1_formulario h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+.sec1_formulario label{
+    font-size: 10px;
+}
+
+.sec1_formulario input{
+    width: 100%;
+    height: 23px;
+    font-size: 8px;
+    padding: 10px;
+    border: none;
+}
+.sec1_formulario button{
+    margin-top: 15px;
+    padding: 7px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11px;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+    color: #ffffff;
+}
+
+.sec1_imgrepart{
+    width: 100%;
+    margin-top: 40px;
+}
+.sec1_imgrepart img{
+    width: 100%;
+}
+/* seccion 2 */
+
+.sec_carrusel{
+    background-color:#e8505b;
+}
+.cont_seccion2{
+    background-color:#e8505b;
+    color: #ffffff;
+    max-width: 800px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center ;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+.sec2_texto{
+    padding: 15px;
+    margin: 0 auto;
+}
+.sec2_text2{
+    font-size: 12px;
+    text-align: center;
+}
+.sec2_carrusel{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width: 100%;
+}
+.sec2_carrusel img{
+    width: 250px;
+}
+/* SECCION 3 */
+.sec_testimonial{
+    background-color: #ffffff;
+}
+.cont_secion3{
+    background-color:#ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.sec3_texto{
+    background-color:#ffffff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+.sec3_comentarios{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color:#ffffff;
+    padding: 2px 8px;
+}
+.sec3_comen{
+    background-color:#455a64;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.cm1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.cm2{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.cm3{
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+.cm4{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.cm5{
+    grid-column: 3/5 ;
+    grid-row: 2/3;
+}
+.img_perfil{
+    width: 50px;
+    border-radius: 50%;
+}
+.sec3_nom{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.img_estrella{
+    width: 75px;
+}
+.sec3_pcoment{
+    padding:0px 10px 15px 30px;
+}
+.sec3_pcoment p{
+    font-size: 12px;
+    line-height: 1.5 ;
+}
+
+/* SECCION 4 */
+.sec_restaurantes{
+    background-color: #eceeef;
+    padding: 30px 0;
+}
+.cont_seccion4{
+    background-color: #eceeef;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0px auto;
+}
+.cont_seccion4 h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #455a64;
+}
+.sec4_cartas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 20px;
+
+}
+.sec4_cartaunica{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius:5px ;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 2PX 5PX rgba(0,0,0,0.05);
+}
+.sec4_imgensalada{
+    width: 100px;
+    object-fit: contain;
+}
+.sec4_cartaunica{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 80px;
+}
+.sec4_info img{
+    width: 60%;
+}
+.sec4_info h5{
+    font-size: 18px;
+    color: #e8505b;
+    margin-top: 5px;
+}
+.sec4_info p{
+    font-size: 12px;
+    color: #455a64;
+    line-height: 1.5;
+}
+/* SECCION 5 */
+.sec_gana{
+    background-color:#ffffff;
+}
+.cont_seccion5{
+    background-color:#ffffff;
+    color:#455a64 ;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 30px 0px;
+    justify-items: center;
+}
+.cont_seccion5 h2{
+    margin-bottom: 25px;
+}
+.cont_seccion5 img{
+    width: 385px;
+    object-fit: contain;
+}
+.sec5_ganadinero{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+.sec5_info{
+    font-size: 13px;
+    line-height: 1.5;
+}
+.sec5_info button{
+    border: none;
+    background-color:#e8505b;
+    color:#ffffff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+/* FOOTER */
+footer{
+    background-color: #455a64;
+}
+.cont_footer{
+    background-color: #455a64;
+    max-width: 800px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.foo_contenido{
+    color: #ffffff;
+    font-size: 11.5px;
+    line-height: 1.8;
+}
+.foo_contenido h3{
+    padding: 10px 0px;
+    font-size: 19px;
+}
+.foo_contenido ul{
+    list-style: none;
+}
+.foo_derechos{
+    background-color: #e8505b;
+    color: #ffffff;
+    justify-items: center;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
